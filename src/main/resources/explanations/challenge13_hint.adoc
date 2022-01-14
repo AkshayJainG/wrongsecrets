@@ -1,0 +1,7 @@
+===  hardcoded password in C binary
+
+When people write a Proof of Concept, they often tend to start with hardcoded secrets, such as a `password` in code. What if we forget to remove these hardcoded secrets?
+
+Can you spot the secret we are looking for in code? 
+
+You can spot the secret easily by using https://rada.re/n/[*Radare2*] and https://ghidra-sre.org/[Ghidra]. Just dive into the code!
